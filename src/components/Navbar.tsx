@@ -9,14 +9,14 @@ const Navbar = () => {
         </a>
       </div>
       <div className="md:flex hidden items-center gap-x-8 justify-around">
-        <a href="/one" className="text-lg no-underline ml-2">
-          About
-        </a>
-        <a href="/two" className="text-lg no-underline ml-2">
+        <a href="/portfolio" className="text-lg no-underline ml-2">
           Portfolio
         </a>
-        <a href="/three" className="text-lg no-underline ml-2">
+        <a href="/contact" className="text-lg no-underline ml-2">
           Contact
+        </a>
+        <a href="/resume" className="text-lg no-underline ml-2">
+          Resume
         </a>
       </div>
     </nav>
