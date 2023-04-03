@@ -14,8 +14,33 @@ const Hero = () => {
           <img src="/images/1.jpg" alt="hero" className="transition-all duration-700 opacity-0 animating-image" />
           <div className="bg-neutral-950 absolute inset-0 transition-all duration-700 animating-bg w-full" />
         </div>
-        <div className="lg:absolute lg:-bottom-8 lg:right-4 lg:m-0 mt-5 w-24 h-24 inline-flex items-center justify-center rounded-full border-2 border-neutral-800">
-          <i className="las la-angle-down text-4xl"></i>
+        <div className="lg:absolute lg:-bottom-8 lg:right-4 lg:m-0 mt-5 w-24 h-24 rounded-full overflow-hidden">
+          <button
+            className="
+              relative
+              w-full
+              h-full
+              inline-flex
+              items-center
+              justify-center
+              rounded-full
+              border-2
+              border-neutral-800
+              after:absolute
+              after:left-0
+              after:top-0
+              after:content-['']
+              after:bg-neutral-900
+              after:w-0
+              after:h-full
+              hover:after:w-full
+              after:transition-all
+              duration-700
+              group
+            "
+          >
+            <i className="absolute las la-angle-down text-4xl z-10 group-hover:text-white transition-all duration-500"></i>
+          </button>
         </div>
       </div>
     </section>
