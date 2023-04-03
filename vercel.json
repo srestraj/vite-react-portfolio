@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/" },
+    { "source": "/(.*)", "destination": "/" },
+    { "source": "/contact", "destination": "/contact" },
+    { "source": "/portfolio", "destination": "portfolio" },
+    { "source": "/resume", "destination": "/resume" }
+  ]
+}
