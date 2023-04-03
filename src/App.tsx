@@ -1,4 +1,5 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { scrollReveal } from './util/scrollReveal'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
 
@@ -8,6 +9,11 @@ const router = createBrowserRouter([
     element: <Home />
   }
 ])
+
+
+window.addEventListener('load', scrollReveal)
+window.addEventListener('scroll', scrollReveal)
+window.addEventListener('resize', scrollReveal)
 
 function App() {
 
