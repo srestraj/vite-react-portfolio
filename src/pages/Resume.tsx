@@ -26,7 +26,7 @@ const Resume = () => {
         </div>
       </section>
       {
-        resumeOptions.map((resumeOption, i) => <ResumeTab key={i} title={resumeOption.title} description={resumeOption.description} />)
+        resumeOptions.map((resumeOption: any, i) => <ResumeTab key={i} title={resumeOption.title} description={resumeOption.description} />)
       }
     </div>
   )
