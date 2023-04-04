@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "title": "Senior Product Designer",
+    "startYear": "2022",
+    "endYear": "2023",
+    "company": "Facebook",
+    "logo": "/images/facebook.svg",
+    "description": "Lorem ipsum dolor sit amet tragon consectetur dolseclm adipiscing elit mattis faucibus odio feugiat."
+  },
+  {
+    "id": 1,
+    "title": "Lead of Mobile Design",
+    "startYear": "2020",
+    "endYear": "2021",
+    "company": "YouTube",
+    "logo": "/images/youtube.svg",
+    "description": "Lorem ipsum dolor sit amet tragon consectetur dolseclm adipiscing elit mattis faucibus odio feugiat."
+  },
+  {
+    "id": 2,
+    "title": "Head of UX Engineering",
+    "startYear": "2019",
+    "endYear": "2020",
+    "company": "Twitter",
+    "logo": "/images/twitter.svg",
+    "description": "Lorem ipsum dolor sit amet tragon consectetur dolseclm adipiscing elit mattis faucibus odio feugiat."
+  },
+  {
+    "id": 3,
+    "title": "Mobile UI/UX Designer",
+    "startYear": "2017",
+    "endYear": "2018",
+    "company": "Twitch",
+    "logo": "/images/twitch.svg",
+    "description": "Lorem ipsum dolor sit amet tragon consectetur dolseclm adipiscing elit mattis faucibus odio feugiat."
+  }
+]

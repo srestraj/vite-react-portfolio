@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Facebook",
+    "link": "https://facebook.com/",
+    "iconClass": "la-facebook-f"
+  },
+  {
+    "title": "Instagram",
+    "link": "https://instagram.com/",
+    "iconClass": "la-instagram"
+  },
+  {
+    "title": "Twitter",
+    "link": "https://twitter.com/",
+    "iconClass": "la-twitter"
+  },
+  {
+    "title": "LinkedIn",
+    "link": "https://linkedin.com/",
+    "iconClass": "la-linkedin-in"
+  },
+  {
+    "title": "Dribbble",
+    "link": "https://dribbble.com/",
+    "iconClass": "la-dribbble"
+  },
+  {
+    "title": "Behance",
+    "link": "https://behance.net/",
+    "iconClass": "la-behance"
+  },
+  {
+    "title": "YouTube",
+    "link": "https://youtube.com/",
+    "iconClass": "la-youtube"
+  }
+]

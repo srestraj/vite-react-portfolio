@@ -1,0 +1,15 @@
+[
+  {
+    "title": "<h2>About me</h2>",
+    "description": "<p class='text-gray-500'>Lorem ipsum dolor sit amet consectetur adipiscing elit auis nec et vestibulum risus accumsan purus morbi. Id arcu rutrum pharetra rutrum dolor ament consectur.<br><br>Odio aliquet placerat sit iaculis mattis viverra scelerisque pellentesq nibh a rhoncus amet laoreet. Volutpat, tincidunt ac sit consequat purus, adipiscing purus tempus. Interdum lacus maecenas suscipit sed elit diam, consequat. Nisi euismod tellus cras urna.</p>"
+  },
+  {
+    "title": "<h2>Experience</h2>"
+  },
+  {
+    "title": "<h2>Skills</h2>"
+  },
+  {
+    "title": "<h2>Follow me</h2>"
+  }
+]

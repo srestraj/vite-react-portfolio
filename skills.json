@@ -1,0 +1,22 @@
+[
+  {
+    "id": 0,
+    "title": "UI/UX Design",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit auis nec et vestibulum risus accumsan purus morbi id arcu rutrum."
+  },
+  {
+    "id": 1,
+    "title": "User Research",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit auis nec et vestibulum risus accumsan purus morbi id arcu rutrum."
+  },
+  {
+    "id": 2,
+    "title": "Product Design",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit auis nec et vestibulum risus accumsan purus morbi id arcu rutrum."
+  },
+  {
+    "id": 3,
+    "title": "Brand Design",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit auis nec et vestibulum risus accumsan purus morbi id arcu rutrum."
+  }
+]
