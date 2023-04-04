@@ -1,0 +1,119 @@
+[
+  {
+    "id": 1,
+    "title": "Brand design & identity for Sezane",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e66203ead5f6345fdf8523_idendity-design-thumbnail-image-portfolio-x-webflow-template-p-800.jpeg",
+    "url": "#",
+    "category": "Branding",
+    "company": "Sezane"
+  },
+  {
+    "id": 2,
+    "title": "Logo design & branding for Lacausa co.",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e6632066c96efdc9412dc8_logo-design-thumbnail-image-portfolio-x-webflow-template-p-800.jpeg",
+    "url": "#",
+    "category": "Branding",
+    "company": "Lacausa co"
+  },
+  {
+    "id": 3,
+    "title": "Sofa furniture design for Burrow",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e65d6766c96e42f5411906_decoration-design-thumbnail-image-portfolio-x-webflow-template-p-800.jpeg",
+    "url": "#",
+    "category": "Industrial",
+    "company": "Burrow"
+  },
+  {
+    "id": 4,
+    "title": "Fyrn local showroom interior design & decoration",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e65dca55b9d21e37e33f02_interior-design-thumbnail-image-portfolio-x-webflow-template-p-800.jpeg",
+    "url": "#",
+    "category": "Industrial",
+    "company": "Fyrn"
+  },
+  {
+    "id": 5,
+    "title": "Website design for finance startup",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e7971cc340a26c7a072b55_app-x-thumbnail-image-portfolio-x-webflow-template-p-800.jpeg",
+    "url": "#",
+    "category": "UI/UX",
+    "company": "App X"
+  },
+  {
+    "id": 6,
+    "title": "Brand refresh for Technology app",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e660ee7ae7c7704e16b0f3_technology-thumbnail-image-portfolio-x-webflow-template-p-800.jpeg",
+    "url": "#",
+    "category": "UI/UX",
+    "company": "Technology"
+  },
+  {
+    "id": 7,
+    "title": "Graphic design & photography for Doen",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e663a2dbec6bf13d3d96b3_photography-thumbnail-image-portfolio-x-webflow-template-p-800.jpeg",
+    "url": "#",
+    "category": "Branding",
+    "company": "Doen"
+  },
+  {
+    "id": 8,
+    "title": "Brand design & identity for La Ligne",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e662cc9344610e88462fa3_brand-design-thumbnail-image-portfolio-x-webflow-template-p-800.jpeg",
+    "url": "#",
+    "category": "Branding",
+    "company": "La Ligne"
+  },
+  {
+    "id": 9,
+    "title": "Website redesign for Consulting X",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e65ea2d4406394a3a5237c_consulting-x-thumbnail-image-portfolio-x-webflow-template-p-800.jpeg",
+    "url": "#",
+    "category": "UI/UX",
+    "company": "Consulting X"
+  },
+  {
+    "id": 10,
+    "title": "Illustration design for Education X",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e65e63519b8e115adf3bb2_education-x-thumbnail-image-portfolio-x-webflow-template-p-800.jpeg",
+    "url": "#",
+    "category": "UI/UX",
+    "company": "Education X"
+  },
+  {
+    "id": 11,
+    "title": "Dresser concept design exploration with Maiden Home",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e65c3584ee0c24c32d5736_design-exploration-thumbnail-image-portfolio-x-webflow-template-p-800.jpeg",
+    "url": "#",
+    "category": "Industrial",
+    "company": "Maiden Home"
+  },
+  {
+    "id": 12,
+    "title": "13 products design & development for Joybird co",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e65a59e8dc54b0fe47e281_products-design-thumbnail-image-portfolio-x-webflow-template-p-800.jpeg",
+    "url": "#",
+    "category": "Industrial",
+    "company": "Joybird"
+  },
+  {
+    "id": 13,
+    "title": "Product lineup industrial design for Caramba brand",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e65c4b1c453725d601c00f_industrial-design-thumbnail-image-portfolio-x-webflow-template-p-800.jpeg",
+    "url": "#",
+    "category": "Industrial",
+    "company": "La Ligne"
+  }
+]
