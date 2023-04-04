@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+import ArrowTopRight from './ArrowTopRight'
 import Position from './Position'
 
 const Experience = () => {
@@ -50,6 +52,29 @@ const Experience = () => {
           <p className="mb-6 font-normal leading-relaxed text-gray-500 lg:mb-8 text-xl">
             Vulputate ut pharetra sit amet aliquam id diam dolor maecenas ultricies at in tellus integer feugiat ipum
           </p>
+          <Link
+            to="/resume"
+            className="
+              font-semibold
+              md:text-2xl
+              text-xl
+              inline-flex
+              items-center
+              gap-2
+              group
+            "
+          >
+            Browse full resume
+            <ArrowTopRight
+              classNames="
+                w-7
+                group-hover:translate-x-1
+                group-hover:-translate-y-1
+                transition-all
+                duration-200
+              "
+            />
+          </Link>
         </div>
         <div className="lg:mt-0 lg:col-span-7">
           <div className="w-full flex flex-col gap-y-4 divide-y">

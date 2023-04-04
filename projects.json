@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Website design for finance startup",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e7971cc340a26c7a072b55_app-x-thumbnail-image-portfolio-x-webflow-template.jpg",
+    "url": "#",
+    "category": "Web Design",
+    "company": "App X"
+  },
+  {
+    "id": 2,
+    "title": "Brand refresh for Technology app",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e660ee7ae7c7704e16b0f3_technology-thumbnail-image-portfolio-x-webflow-template.jpg",
+    "url": "#",
+    "category": "Branding",
+    "company": "Technology"
+  },
+  {
+    "id": 3,
+    "title": "Website redesign for Consulting X",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e65ea2d4406394a3a5237c_consulting-x-thumbnail-image-portfolio-x-webflow-template.jpg",
+    "url": "#",
+    "category": "Web Design",
+    "company": "Consulting X"
+  },
+  {
+    "id": 4,
+    "title": "Illustration design for Edu X",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e65e63519b8e115adf3bb2_education-x-thumbnail-image-portfolio-x-webflow-template.jpg",
+    "url": "#",
+    "category": "Illustrations",
+    "company": "Edu X"
+  }
+]
