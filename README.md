@@ -1,6 +1,7 @@
 ### Portfolio template with Vite and React
 
-Demo: [vite-react-portfolio.vercel.app](https://vite-react-portfolio.vercel.app/)
+Preview:
+<img src="./public/images/screenshot.jpg" alt="Demo screenshot" style="width: 100%; height: auto;max-width: 100%" />
 
 
 **Features** 
