@@ -128,6 +128,60 @@ const ProjectDetails = () => {
         </ReactMarkdown>
      </div>
      <hr className="my-12" />
+     <section className="bg-white py-20 lg:py-32">
+        <div className="relative grid auto-cols-fr gap-10 max-w-screen-xl px-4 mx-auto lg:grid-cols-12">
+          <div className="place-self-start lg:col-span-7">
+            <h3 className="mb-4 text-4xl font-normal tracking-normal xl:text-5xl md:text-4xl">
+              Project gallery
+            </h3>
+          </div>
+          <div className="lg:col-span-5">
+            <p className="mb-6 font-normal leading-relaxed text-gray-500 lg:mb-8 text-xl">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae doloribus qui ullam eaque?
+            </p>
+          </div>
+        </div>
+        <div className="grid gap-6 px-4 grid-cols-12">
+          <div className="md:col-span-6 col-span-12 relative">
+            <img
+              src="/images/gallery-1.jpg"
+              className="w-full h-full object-cover object-center transition-all duration-700 opacity-0 animating-image group-hover:scale-110"
+            />
+            <div className="bg-neutral-950 absolute inset-0 transition-all duration-700 animating-bg w-full" />
+          </div>
+          <div className="md:col-span-6 col-span-12 grid grid-cols-2 gap-6">
+            <div className="relative overflow-hidden">
+              <img
+                src="/images/gallery-2.jpg"
+                className="w-full h-full object-cover object-center transition-all duration-700 opacity-0 animating-image group-hover:scale-110"
+              />
+              <div className="bg-neutral-950 absolute inset-0 transition-all duration-700 animating-bg w-full" />
+            </div>
+            <div className="relative">
+              <img
+                src="/images/gallery-3.jpg"
+                className="w-full h-full object-cover object-center transition-all duration-700 opacity-0 animating-image group-hover:scale-110"
+              />
+              <div className="bg-neutral-950 absolute inset-0 transition-all duration-700 animating-bg w-full" />
+            </div>
+            <div className="relative">
+              <img
+                src="/images/gallery-4.jpg"
+                className="w-full h-full object-cover object-center transition-all duration-700 opacity-0 animating-image group-hover:scale-110"
+              />
+              <div className="bg-neutral-950 absolute inset-0 transition-all duration-700 animating-bg w-full" />
+            </div>
+            <div className="relative">
+              <img
+                src="/images/gallery-5.jpg"
+                className="w-full h-full object-cover object-center transition-all duration-700 opacity-0 animating-image group-hover:scale-110"
+              />
+              <div className="bg-neutral-950 absolute inset-0 transition-all duration-700 animating-bg w-full" />
+            </div>
+          </div>
+        </div>
+      </section>
+     <hr className="my-12" />
      <PreFooter />
     </>
   )
