@@ -49,6 +49,10 @@
     src: url(./assets/fonts/THICCCBOI-ThicccAF.woff2) format("woff");
   }
 
+  body {
+    @apply bg-white;
+  }
+
   .markdown h2 {
     @apply md:text-4xl text-3xl mb-4;
   }

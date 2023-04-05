@@ -16,7 +16,7 @@ window.addEventListener('resize', scrollReveal)
 function App() {
 
   return (
-    <div className="App container md:max-w-7xl mx-auto bg-white">
+    <div className="App container md:max-w-7xl mx-auto">
       <Navbar />
       <ScrollToTop>
         <Routes>
