@@ -1,6 +1,6 @@
 ### Portfolio template with Vite and React
 
-Preview:
+**Preview**
 <img src="./public/images/screenshot.jpg" alt="Demo screenshot" style="width: 100%; height: auto;max-width: 100%" />
 
 
