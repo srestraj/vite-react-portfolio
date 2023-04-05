@@ -13,7 +13,7 @@ const Experience = () => {
           <p className="mb-6 font-normal leading-relaxed text-gray-500 lg:mb-8 text-xl">
             Vulputate ut pharetra sit amet aliquam id diam dolor maecenas ultricies at in tellus integer feugiat ipum
           </p>
-          <AnimatedLink title="Browse full resume" link="/resume" isExternal={false}  />
+          <AnimatedLink title="View resume" link="/resume" isExternal={false}  />
         </div>
         <div className="lg:mt-0 lg:col-span-7">
           <div className="w-full flex flex-col gap-y-4 divide-y">
