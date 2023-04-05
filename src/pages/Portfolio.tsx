@@ -1,11 +1,25 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import categories from '../../categories.json'
+import portfolioList from '../../portfolio.json'
+import PortfolioProject from '../components/PortfolioProject'
+import ArrowTopRight from '../components/ArrowTopRight'
 
 const Portfolio = () => {
   const [selectedOption, setSelectedOption] = useState('')
+  const [perPage, setPerPage] = useState(5)
 
   const updateTab = (category: any) => {
     setSelectedOption(category)
+  }
+
+  const filteredProjects = useMemo(() => {
+    return selectedOption.toLowerCase() == 'all projects' ?
+      portfolioList :  
+      portfolioList.filter((project) => project.category.toLowerCase() == selectedOption.toLowerCase())
+  }, [selectedOption])
+
+  const loadMore = () => {
+    setPerPage(perPage + 5)
   }
 
   useEffect(() => {
@@ -50,6 +64,37 @@ const Portfolio = () => {
           }
         </div>
       </section>
+      <div className="relative grid max-w-screen-xl px-4 md:mx-auto gap-8 md:grid-cols-12">
+        <PortfolioProject projects={filteredProjects.slice(0, perPage)} />
+      </div>
+      {
+        filteredProjects.length > perPage &&
+        <button
+          className="
+            my-10
+            mx-auto
+            font-semibold
+            md:text-2xl
+            text-xl
+            inline-flex
+            items-center
+            gap-2
+            group
+          "
+          onClick={loadMore}
+        >
+          Load more
+          <ArrowTopRight
+            classNames="
+              w-7
+              group-hover:translate-x-1
+              group-hover:-translate-y-1
+              transition-all
+              duration-200
+            "
+          />
+        </button>
+      }
     </div>
   )
 }

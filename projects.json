@@ -6,7 +6,8 @@
     "image": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e7971cc340a26c7a072b55_app-x-thumbnail-image-portfolio-x-webflow-template.jpg",
     "url": "#",
     "category": "Web Design",
-    "company": "App X"
+    "company": "App X",
+    "slug": "website-design-for-finance-startup"
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "image": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e660ee7ae7c7704e16b0f3_technology-thumbnail-image-portfolio-x-webflow-template.jpg",
     "url": "#",
     "category": "Branding",
-    "company": "Technology"
+    "company": "Technology",
+    "slug": "brand-refresh-for-technology-app"
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@
     "image": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e65ea2d4406394a3a5237c_consulting-x-thumbnail-image-portfolio-x-webflow-template.jpg",
     "url": "#",
     "category": "Web Design",
-    "company": "Consulting X"
+    "company": "Consulting X",
+    "slug": "website-design-for-consulting-x"
   },
   {
     "id": 4,
@@ -33,6 +36,7 @@
     "image": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e65e63519b8e115adf3bb2_education-x-thumbnail-image-portfolio-x-webflow-template.jpg",
     "url": "#",
     "category": "Illustrations",
-    "company": "Edu X"
+    "company": "Edu X",
+    "slug": "illustration-design-for-edu-x"
   }
 ]

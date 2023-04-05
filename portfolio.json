@@ -6,7 +6,9 @@
     "image": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e66203ead5f6345fdf8523_idendity-design-thumbnail-image-portfolio-x-webflow-template-p-800.jpeg",
     "url": "#",
     "category": "Branding",
-    "company": "Sezane"
+    "company": "Sezane",
+    "slug": "brand-design-identity-for-sezane",
+    "banner": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e661fd88c0433993c8a65c_idendity-design-featured-image-portfolio-x-webflow-template.jpg"
   },
   {
     "id": 2,
@@ -15,7 +17,9 @@
     "image": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e6632066c96efdc9412dc8_logo-design-thumbnail-image-portfolio-x-webflow-template-p-800.jpeg",
     "url": "#",
     "category": "Branding",
-    "company": "Lacausa co"
+    "company": "Lacausa co",
+    "slug": "logo-design-branding-for-lacausa-co",
+    "banner": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e6631921872b4df6226554_logo-design-featured-image-portfolio-x-webflow-template.jpg"
   },
   {
     "id": 3,
@@ -24,7 +28,9 @@
     "image": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e65d6766c96e42f5411906_decoration-design-thumbnail-image-portfolio-x-webflow-template-p-800.jpeg",
     "url": "#",
     "category": "Industrial",
-    "company": "Burrow"
+    "company": "Burrow",
+    "slug": "sofa-furniture-design-for-burrow",
+    "banner": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e65d61d59b78693276a9f0_decoration-design-featured-image-portfolio-x-webflow-template.jpg"
   },
   {
     "id": 4,
@@ -33,7 +39,9 @@
     "image": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e65dca55b9d21e37e33f02_interior-design-thumbnail-image-portfolio-x-webflow-template-p-800.jpeg",
     "url": "#",
     "category": "Industrial",
-    "company": "Fyrn"
+    "company": "Fyrn",
+    "slug": "fyrn-local-showroom-interior-design-decoration",
+    "banner": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e65dc1c973765f55f7dcdb_interior-design-featured-image-portfolio-x-webflow-template.jpg"
   },
   {
     "id": 5,
@@ -42,7 +50,9 @@
     "image": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e7971cc340a26c7a072b55_app-x-thumbnail-image-portfolio-x-webflow-template-p-800.jpeg",
     "url": "#",
     "category": "UI/UX",
-    "company": "App X"
+    "company": "App X",
+    "slug": "website-design-for-finance-startup",
+    "banner": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e7971ae4fe7ed4754f50ef_app-x-featured-image-portfolio-x-webflow-template.jpg"
   },
   {
     "id": 6,
@@ -51,7 +61,9 @@
     "image": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e660ee7ae7c7704e16b0f3_technology-thumbnail-image-portfolio-x-webflow-template-p-800.jpeg",
     "url": "#",
     "category": "UI/UX",
-    "company": "Technology"
+    "company": "Technology",
+    "slug": "brand-refresh-for-technology-app",
+    "banner": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e660f6d4406383fca528d9_technology-featured-image-portfolio-x-webflow-template.jpg"
   },
   {
     "id": 7,
@@ -60,7 +72,9 @@
     "image": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e663a2dbec6bf13d3d96b3_photography-thumbnail-image-portfolio-x-webflow-template-p-800.jpeg",
     "url": "#",
     "category": "Branding",
-    "company": "Doen"
+    "company": "Doen",
+    "slug": "graphic-design-photography-for-doen",
+    "banner": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e663aa55b9d258aee350b3_photography-featured-image-portfolio-x-webflow-template.jpg"
   },
   {
     "id": 8,
@@ -69,7 +83,9 @@
     "image": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e662cc9344610e88462fa3_brand-design-thumbnail-image-portfolio-x-webflow-template-p-800.jpeg",
     "url": "#",
     "category": "Branding",
-    "company": "La Ligne"
+    "company": "La Ligne",
+    "slug": "brand-design-identity-for-la-ligne",
+    "banner": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e662d87ae7c7730516b8cc_brand-design-featured-image-portfolio-x-webflow-template.jpg"
   },
   {
     "id": 9,
@@ -78,16 +94,20 @@
     "image": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e65ea2d4406394a3a5237c_consulting-x-thumbnail-image-portfolio-x-webflow-template-p-800.jpeg",
     "url": "#",
     "category": "UI/UX",
-    "company": "Consulting X"
+    "company": "Consulting X",
+    "slug": "website-design-for-consulting-x",
+    "banner": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e65eacd440634242a5237e_consulting-x-featured-image-portfolio-x-webflow-template.jpg"
   },
   {
     "id": 10,
-    "title": "Illustration design for Education X",
+    "title": "Illustration design for Edu X",
     "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "image": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e65e63519b8e115adf3bb2_education-x-thumbnail-image-portfolio-x-webflow-template-p-800.jpeg",
     "url": "#",
     "category": "UI/UX",
-    "company": "Education X"
+    "company": "Edu X",
+    "slug": "illustration-design-for-edu-x",
+    "banner": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e65e5ae944ac73abf27090_education-x-featured-image-portfolio-x-webflow-template.jpg"
   },
   {
     "id": 11,
@@ -96,7 +116,9 @@
     "image": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e65c3584ee0c24c32d5736_design-exploration-thumbnail-image-portfolio-x-webflow-template-p-800.jpeg",
     "url": "#",
     "category": "Industrial",
-    "company": "Maiden Home"
+    "company": "Maiden Home",
+    "slug": "dresser-concept-design-exploration-with-maiden-home",
+    "banner": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e65c2d7b64f351d0c12a90_design-exploration-featured-image-portfolio-x-webflow-template.jpg"
   },
   {
     "id": 12,
@@ -105,7 +127,9 @@
     "image": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e65a59e8dc54b0fe47e281_products-design-thumbnail-image-portfolio-x-webflow-template-p-800.jpeg",
     "url": "#",
     "category": "Industrial",
-    "company": "Joybird"
+    "company": "Joybird",
+    "slug": "13-products-design-development-for-joybird-co",
+    "banner": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e65a507e331c95f8c66465_products-design-featured-image-portfolio-x-webflow-template.jpg"
   },
   {
     "id": 13,
@@ -114,6 +138,8 @@
     "image": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e65c4b1c453725d601c00f_industrial-design-thumbnail-image-portfolio-x-webflow-template-p-800.jpeg",
     "url": "#",
     "category": "Industrial",
-    "company": "La Ligne"
+    "company": "La Ligne",
+    "slug": "product-lineup-industrial-design-for-caramba-brand",
+    "banner": "https://assets.website-files.com/60e640d00fdb1e48916fae6c/60e65c6355507b32115bd3ed_industrial-design-featured-image-portfolio-x-webflow-template.jpg"
   }
 ]
