@@ -66,8 +66,8 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="group ml-auto block md:hidden" role="button" onClick={toggleMenu}>
-        <div ref={firstBar} className="group-hover:bg-gray-600 w-9 h-0.5 my-3 bg-neutral-950 transition-all duration-700"></div>
-        <div ref={secondBar} className="group-hover:bg-gray-600 w-9 h-0.5 my-3 bg-neutral-950 transition-all duration-700"></div>
+        <div ref={firstBar} className="group-hover:bg-gray-600 w-9 h-0.5 my-3 bg-neutral-950 transition-all duration-300"></div>
+        <div ref={secondBar} className="group-hover:bg-gray-600 w-9 h-0.5 my-3 bg-neutral-950 transition-all duration-300"></div>
       </div>
     </nav>
   )
