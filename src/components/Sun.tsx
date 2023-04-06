@@ -1,7 +1,7 @@
 const Sun = () => {
   return (
     <svg className="w-7 h-7" height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg">
-      <g fill="none" fillRule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" transform="translate(-210 -1)">
+      <g fill="none" fillRule="evenodd" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" transform="translate(-210 -1)">
         <g opacity=".3" transform="matrix(.96592583 .25881905 -.25881905 .96592583 214.136029 .477376)">
           <path d="m9 13c2.2190012 0 4-1.7631416 4-3.98214286 0-2.21900122-1.7809988-4.01785714-4-4.01785714-2.21900123 0-4 1.78099877-4 4 0 2.2190012 1.78099877 4 4 4z" transform="matrix(.96592583 -.25881905 .25881905 .96592583 -2.022704 2.636039)" />
           <g transform="matrix(.8660254 .5 -.5 .8660254 1.4558 4.066879)">
