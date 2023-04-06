@@ -142,39 +142,39 @@ const ProjectDetails = () => {
           </div>
         </div>
         <div className="grid gap-6 px-4 grid-cols-12">
-          <div className="md:col-span-6 col-span-12 relative">
+          <div className="group overflow-hidden md:col-span-6 col-span-12 relative">
             <img
               src="/images/gallery-1.jpg"
-              className="w-full h-full object-cover object-center transition-all duration-700 opacity-0 animating-image group-hover:scale-110"
+              className="w-full h-full object-cover object-center transition-all duration-700 opacity-0 animating-image group-hover:scale-150"
             />
             <div className="bg-neutral-950 absolute inset-0 transition-all duration-700 animating-bg w-full" />
           </div>
           <div className="md:col-span-6 col-span-12 grid grid-cols-2 gap-6">
-            <div className="relative overflow-hidden">
+            <div className="group relative overflow-hidden">
               <img
                 src="/images/gallery-2.jpg"
-                className="w-full h-full object-cover object-center transition-all duration-700 opacity-0 animating-image group-hover:scale-110"
+                className="w-full h-full object-cover object-center transition-all duration-700 opacity-0 animating-image group-hover:scale-150"
               />
               <div className="bg-neutral-950 absolute inset-0 transition-all duration-700 animating-bg w-full" />
             </div>
-            <div className="relative">
+            <div className="relative group overflow-hidden ">
               <img
                 src="/images/gallery-3.jpg"
-                className="w-full h-full object-cover object-center transition-all duration-700 opacity-0 animating-image group-hover:scale-110"
+                className="w-full h-full object-cover object-center transition-all duration-700 opacity-0 animating-image group-hover:scale-150"
               />
               <div className="bg-neutral-950 absolute inset-0 transition-all duration-700 animating-bg w-full" />
             </div>
-            <div className="relative">
+            <div className="group overflow-hidden relative">
               <img
                 src="/images/gallery-4.jpg"
-                className="w-full h-full object-cover object-center transition-all duration-700 opacity-0 animating-image group-hover:scale-110"
+                className="w-full h-full object-cover object-center transition-all duration-700 opacity-0 animating-image group-hover:scale-150"
               />
               <div className="bg-neutral-950 absolute inset-0 transition-all duration-700 animating-bg w-full" />
             </div>
-            <div className="relative">
+            <div className="group overflow-hidden relative">
               <img
                 src="/images/gallery-5.jpg"
-                className="w-full h-full object-cover object-center transition-all duration-700 opacity-0 animating-image group-hover:scale-110"
+                className="w-full h-full object-cover object-center transition-all duration-700 opacity-0 animating-image group-hover:scale-150"
               />
               <div className="bg-neutral-950 absolute inset-0 transition-all duration-700 animating-bg w-full" />
             </div>
