@@ -8,6 +8,7 @@
 
 - 🥰 Minimal and light
 - 📱 Responsive
+- 🌗 Light/dark/system color modes
 
 ## Setup
 

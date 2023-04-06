@@ -1,12 +1,14 @@
 import { useRef, useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import Logo from './Logo'
-import Moon from './Moon'
-import Sun from './Sun'
 
 const Navbar = () => {
+  // check if the device theme is dark
+  const getCurrentTheme = () => window.matchMedia("(prefers-color-scheme: dark)").matches
+
   const [isOpen, setIsOpen] = useState(false)
-  const [isDark, setDark] = useState(false)
+  const [isDark, setDark] = useState(getCurrentTheme())
+  const [selectedTheme, setSelectedTheme] = useState('device') // set device as the default theme
   const firstBar: any = useRef(null)
   const secondBar: any = useRef(null)
   const menu: any = useRef(null)
@@ -24,20 +26,39 @@ const Navbar = () => {
 
   }
 
-  const setMode = (isDarkMode: boolean) => {
-    // mode == '1' ? setDark(true) : setDark(false)
-    isDarkMode ? localStorage.setItem('darkMode', '1') : localStorage.setItem('darkMode', '0')
+  const setMode = (isDarkMode: boolean, theme: string) => {
+    theme == 'device' ? localStorage.setItem('theme', 'device') : theme == 'dark' ?
+      localStorage.setItem('theme', 'dark') : localStorage.setItem('theme', 'light')
     isDarkMode ? setDark(true) : setDark(false)
   }
 
   const toggleTheme = () => {
-    isDark ? setMode(false) : setMode(true)
+    if (selectedTheme == 'device') {
+      setMode(false, 'light')
+      setSelectedTheme('light')
+    } else if (selectedTheme == 'light') {
+      setMode(false, 'dark')
+      setSelectedTheme('dark')
+    } else {
+      setMode(getCurrentTheme(), 'device')
+      setSelectedTheme('device')
+    }
   }
 
   useEffect(() => {
-    const initialMode = localStorage.getItem('darkMode')
-    if (initialMode) {
-      initialMode == '1' ? setDark(true) : setDark(false)
+    // get initial theme from localStorage
+    const initTheme = localStorage.getItem('theme')
+    if (initTheme) {
+      if (initTheme == 'device') {
+        setDark(getCurrentTheme())
+        setSelectedTheme('device')
+      } else if (initTheme == 'dark') {
+        setDark(true)
+        setSelectedTheme('dark')
+      } else {
+        setDark(false)
+        setSelectedTheme('light')
+      }
     }
     isDark ? document.documentElement.classList.add('dark') : document.documentElement.classList.remove('dark')
   },[isDark, toggleTheme])
@@ -89,12 +110,16 @@ const Navbar = () => {
           onClick={toggleTheme}
           className="inline-flex items-center md:text-lg text-2xl dark:text-neutral-100 md:ml-2 md:pr-0 md:pl-0 pl-8 pr-24"
         >
-          { isDark ? 
+          { selectedTheme == 'device' ? 
             <span className="inline-flex items-center gap-x-2">
-              <Moon /> <span className="md:hidden">Dark</span>
+              <i className="las la-desktop text-3xl" /> <span className="md:hidden">Device</span>
+            </span> :
+            selectedTheme == 'dark' ?
+            <span className="inline-flex items-center gap-x-2">
+              <i className="lar la-moon text-3xl" /> <span className="md:hidden">Dark</span>
             </span> :
             <span className="inline-flex items-center gap-x-2">
-              <Sun /> <span className="md:hidden">Light</span>
+              <i className="lar la-sun text-3xl" /> <span className="md:hidden">Light</span>
             </span>
           }
         </button>
