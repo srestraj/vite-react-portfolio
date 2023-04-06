@@ -49,10 +49,6 @@
     src: url(./assets/fonts/THICCCBOI-ThicccAF.woff2) format("woff");
   }
 
-  * {
-    @apply transition-all duration-300;
-  }
-
   body {
     @apply bg-white dark:bg-neutral-900;
   }

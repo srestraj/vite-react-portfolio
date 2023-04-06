@@ -1,6 +1,8 @@
 import { useRef, useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import Logo from './Logo'
+import Moon from './Moon'
+import Sun from './Sun'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -85,9 +87,16 @@ const Navbar = () => {
         </Link>
         <button
           onClick={toggleTheme}
-          className="md:text-lg text-2xl dark:text-neutral-100 md:ml-2 md:pr-0 md:pl-0 pl-8 pr-24"
+          className="inline-flex items-center md:text-lg text-2xl dark:text-neutral-100 md:ml-2 md:pr-0 md:pl-0 pl-8 pr-24"
         >
-          { isDark ? 'Dark' : 'Light' }
+          { isDark ? 
+            <span className="inline-flex items-center gap-x-2">
+              <Moon /> <span className="md:hidden">Dark</span>
+            </span> :
+            <span className="inline-flex items-center gap-x-2">
+              <Sun /> <span className="md:hidden">Light</span>
+            </span>
+          }
         </button>
       </div>
       <div className="group ml-auto block md:hidden" role="button" onClick={toggleMenu}>
