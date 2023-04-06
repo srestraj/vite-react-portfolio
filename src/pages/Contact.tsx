@@ -14,7 +14,7 @@ const Contact = () => {
 
   return (
     <div className="flex flex-col">
-      <section className="bg-white py-20 lg:py-32">
+      <section className="bg-white dark:bg-neutral-900 py-20 lg:py-32">
         <div className="relative grid auto-cols-fr gap-10 max-w-screen-xl px-4 mx-auto lg:grid-cols-12">
           <div className="place-self-start lg:col-span-6">
             <h1 className="mb-4 text-4xl font-medium tracking-normal md:text-5xl">
@@ -41,6 +41,9 @@ const Contact = () => {
                     border-b
                     text-xl
                     focus:border-neutral-950
+                    dark:focus:border-white
+                    bg-transparent
+                    dark:text-white
                   "
                   placeholder="Full name"
                   required
@@ -58,6 +61,9 @@ const Contact = () => {
                     border-b
                     text-xl
                     focus:border-neutral-950
+                    dark:focus:border-white
+                    bg-transparent
+                    dark:text-white
                   "
                   placeholder="Email address"
                   required
@@ -76,6 +82,9 @@ const Contact = () => {
                     border-b
                     text-xl
                     focus:border-neutral-950
+                    dark:focus:border-white
+                    bg-transparent
+                    dark:text-white
                   "
                   placeholder="Tell me about the project"
                   required
@@ -92,6 +101,7 @@ const Contact = () => {
                   items-center
                   gap-2
                   group
+                  dark:text-white
                 "
               >
                 Submit message
@@ -102,6 +112,7 @@ const Contact = () => {
                     group-hover:-translate-y-1
                     transition-all
                     duration-200
+                    dark:fill-gray-300
                   "
                 />
               </button>

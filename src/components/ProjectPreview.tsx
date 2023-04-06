@@ -5,7 +5,7 @@ interface Props {
 const ProjectPreview = ({ work }: Props) => {
   return (
     <Link to={`/portfolio/${work.slug}`} className="group">
-      <div className="bg-white border my-8 transition-all group-hover:scale-95 duration-700">
+      <div className="bg-white dark:bg-neutral-900 border dark:border-neutral-600 my-8 transition-all group-hover:scale-95 duration-700">
         <div className="relative grid mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12">
           <div className="lg:px-12 lg:py-auto px-6 py-6 place-self-center lg:col-span-6">
             <p className="font-medium tracking-wide text-lg md:text-xl mb-3">

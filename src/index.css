@@ -49,8 +49,20 @@
     src: url(./assets/fonts/THICCCBOI-ThicccAF.woff2) format("woff");
   }
 
+  * {
+    @apply transition-all duration-300;
+  }
+
   body {
-    @apply bg-white;
+    @apply bg-white dark:bg-neutral-900;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply dark:text-white;
+  }
+
+  p {
+    @apply dark:text-gray-400;
   }
 
   .markdown h2 {
@@ -58,7 +70,7 @@
   }
 
   .markdown p {
-    @apply text-gray-500 font-normal text-lg mb-4;
+    @apply text-gray-500 dark:text-gray-400 font-normal text-lg mb-4;
   }
 
   .markdown ul, .markdown ol {
@@ -74,7 +86,7 @@
   }
 
   .markdown li {
-    @apply text-gray-500 font-normal text-lg mb-4;
+    @apply text-gray-500 dark:text-gray-400 font-normal text-lg mb-4;
   }
 
   .markdown img, .markdown hr {

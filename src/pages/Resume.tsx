@@ -3,8 +3,8 @@ import resumeOptions from '../../resumeOptions.json'
 
 const Resume = () => {
   return (
-    <div className="flex flex-col divide-y md:max-w-5xl mx-auto">
-      <section className="bg-white py-20 lg:py-32">
+    <div className="flex flex-col divide-y dark:divide-gray-600 md:max-w-5xl mx-auto">
+      <section className="bg-white dark:bg-neutral-900 py-20 lg:py-32">
         <div className="flex flex-col gap-y-7 items-center justify-center text-center">
           <img
             src="/images/6.jpeg"

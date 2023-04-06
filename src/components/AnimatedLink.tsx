@@ -23,6 +23,7 @@ const AnimatedLink = ({ title, link, isExternal }:Props) => {
             items-center
             gap-2
             group
+            dark:text-gray-300
           "
         >
           { title }
@@ -33,6 +34,7 @@ const AnimatedLink = ({ title, link, isExternal }:Props) => {
               group-hover:-translate-y-1
               transition-all
               duration-200
+              dark:fill-gray-300
             "
           />
         </a> : 
@@ -46,6 +48,7 @@ const AnimatedLink = ({ title, link, isExternal }:Props) => {
             items-center
             gap-2
             group
+            dark:text-gray-300
           "
         >
           { title }
@@ -56,6 +59,7 @@ const AnimatedLink = ({ title, link, isExternal }:Props) => {
               group-hover:-translate-y-1
               transition-all
               duration-200
+              dark:fill-gray-300
             "
           />
         </Link>

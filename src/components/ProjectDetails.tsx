@@ -27,7 +27,7 @@ const ProjectDetails = () => {
 
   return (
     <>
-      <section className="bg-white py-20 lg:py-32">
+      <section className="bg-white dark:bg-neutral-900 py-20 lg:py-32">
         <div className="relative grid auto-cols-fr gap-10 max-w-screen-xl px-4 mx-auto lg:grid-cols-12">
           <div className="place-self-start lg:col-span-7">
             <h1 className="mb-4 text-4xl font-normal tracking-normal xl:text-6xl md:text-5xl">
@@ -61,6 +61,7 @@ const ProjectDetails = () => {
           py-10
           -mt-16
           bg-white
+          dark:bg-neutral-900
           md:max-w-2xl
           lg:max-w-4xl
           xl:max-w-5xl
@@ -104,6 +105,7 @@ const ProjectDetails = () => {
               items-center
               gap-2
               group
+              dark:text-white
             "
           >
             Live Preview
@@ -114,6 +116,7 @@ const ProjectDetails = () => {
                 group-hover:-translate-y-1
                 transition-all
                 duration-200
+                dark:fill-gray-300
               "
             />
           </a>
@@ -128,7 +131,7 @@ const ProjectDetails = () => {
         </ReactMarkdown>
      </div>
      <hr className="my-12" />
-     <section className="bg-white py-20 lg:py-32">
+     <section className="bg-white dark:bg-neutral-900 py-20 lg:py-32">
         <div className="relative grid auto-cols-fr gap-10 max-w-screen-xl px-4 mx-auto lg:grid-cols-12">
           <div className="place-self-start lg:col-span-7">
             <h3 className="mb-4 text-4xl font-normal tracking-normal xl:text-5xl md:text-4xl">

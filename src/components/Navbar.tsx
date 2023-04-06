@@ -4,6 +4,7 @@ import Logo from './Logo'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
+  const [isDark, setDark] = useState(false)
   const firstBar: any = useRef(null)
   const secondBar: any = useRef(null)
   const menu: any = useRef(null)
@@ -21,9 +22,27 @@ const Navbar = () => {
 
   }
 
+  const setMode = (isDarkMode: boolean) => {
+    // mode == '1' ? setDark(true) : setDark(false)
+    isDarkMode ? localStorage.setItem('darkMode', '1') : localStorage.setItem('darkMode', '0')
+    isDarkMode ? setDark(true) : setDark(false)
+  }
+
+  const toggleTheme = () => {
+    isDark ? setMode(false) : setMode(true)
+  }
+
+  useEffect(() => {
+    const initialMode = localStorage.getItem('darkMode')
+    if (initialMode) {
+      initialMode == '1' ? setDark(true) : setDark(false)
+    }
+    isDark ? document.documentElement.classList.add('dark') : document.documentElement.classList.remove('dark')
+  },[isDark, toggleTheme])
+
 
   return (
-    <nav className="flex text-center md:text-left md:justify-between py-8 px-6 bg-white items-center w-full">
+    <nav className="flex text-center md:text-left md:justify-between py-8 px-6 bg-white dark:bg-neutral-900 items-center w-full">
       <div className="mr-auto">
         <Link to="/">
           <Logo />
@@ -55,19 +74,31 @@ const Navbar = () => {
           md:pt-0 pt-12
         `}
       >
-        <Link to="/portfolio" className="md:text-lg text-2xl no-underline md:ml-2 md:pr-0 md:pl-0 pl-8 pr-24">
+        <Link to="/portfolio" className="md:text-lg text-2xl dark:text-neutral-100 no-underline md:ml-2 md:pr-0 md:pl-0 pl-8 pr-24">
           Portfolio
         </Link>
-        <Link to="/contact" className="md:text-lg text-2xl no-underline md:ml-2 md:pr-0 md:pl-0 pl-8 pr-24">
+        <Link to="/contact" className="md:text-lg text-2xl dark:text-neutral-100 no-underline md:ml-2 md:pr-0 md:pl-0 pl-8 pr-24">
           Contact
         </Link>
-        <Link to="/resume" className="md:text-lg text-2xl no-underline md:ml-2 md:pr-0 md:pl-0 pl-8 pr-24">
+        <Link to="/resume" className="md:text-lg text-2xl dark:text-neutral-100 no-underline md:ml-2 md:pr-0 md:pl-0 pl-8 pr-24">
           Resume
         </Link>
+        <button
+          onClick={toggleTheme}
+          className="md:text-lg text-2xl dark:text-neutral-100 md:ml-2 md:pr-0 md:pl-0 pl-8 pr-24"
+        >
+          { isDark ? 'Dark' : 'Light' }
+        </button>
       </div>
       <div className="group ml-auto block md:hidden" role="button" onClick={toggleMenu}>
-        <div ref={firstBar} className="group-hover:bg-gray-600 w-9 h-0.5 my-3 bg-neutral-950 transition-all duration-300"></div>
-        <div ref={secondBar} className="group-hover:bg-gray-600 w-9 h-0.5 my-3 bg-neutral-950 transition-all duration-300"></div>
+        <div
+          ref={firstBar}
+          className="group-hover:bg-gray-600 w-9 h-0.5 my-3 bg-neutral-950 dark:bg-neutral-50 transition-all duration-300"
+        ></div>
+        <div
+          ref={secondBar}
+          className="group-hover:bg-gray-600 w-9 h-0.5 my-3 bg-neutral-950 dark:bg-neutral-50 transition-all duration-300"
+        ></div>
       </div>
     </nav>
   )

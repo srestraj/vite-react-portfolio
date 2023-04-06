@@ -6,7 +6,7 @@ interface Props {
 
 const Hero = ({ scrollToAbout = () => {} }: Props) => {
   return (
-    <section className="bg-white py-20 lg:py-48">
+    <section className="bg-white dark:bg-neutral-900 py-20 lg:py-48">
       <div className="relative grid max-w-screen-xl px-4 mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12">
         <div className="mx-auto place-self-center lg:col-span-7">
           <h1 className="lg:max-w-2xl mb-4 text-4xl font-normal tracking-normal md:text-5xl xl:text-6xl">

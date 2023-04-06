@@ -12,7 +12,7 @@ interface Props {
 }
 const ResumeTab = ({ title, description }:Props) => {
   return (
-    <section className="bg-white py-20 lg:py-32">
+    <section className="bg-white dark:bg-neutral-900 py-20 lg:py-32">
       <div className="relative grid auto-cols-fr gap-5 max-w-screen-xl px-4 mx-auto lg:grid-cols-12">
         <div className="place-self-start lg:col-span-5 lg:sticky lg:top-8">
           <ReactMarkdown
@@ -22,7 +22,7 @@ const ResumeTab = ({ title, description }:Props) => {
             {title}
           </ReactMarkdown>
         </div>
-        <div className="lg:col-span-7 divide-y">
+        <div className="lg:col-span-7 divide-y dark:divide-gray-600">
           {
             title.toLowerCase().includes('experience') ?
             pastRoles.map((role: any) => <Position key={role.id} job={role} isResume={true} />) :

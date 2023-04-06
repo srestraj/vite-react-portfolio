@@ -7,7 +7,7 @@ const PreFooter = () => {
     navigateTo('/contact')
   }
   return (
-    <section className="bg-white py-20 lg:py-32">
+    <section className="bg-white dark:bg-neutral-900 py-20 lg:py-32">
       <div className="relative grid auto-cols-fr gap-10 max-w-screen-xl px-4 mx-auto lg:grid-cols-12">
         <div className="place-self-start lg:col-span-7">
           <h2 className="mb-4 text-3xl font-normal tracking-normal xl:text-5xl md:text-4xl">

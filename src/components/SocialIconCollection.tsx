@@ -7,8 +7,8 @@ const SocialIconConnection = ({ links }:Props) => {
       {
         links.map((link: any) => 
         <a key={link.link} href={link.link} target="_blank" className="inline-flex items-center gap-2">
-          <i className={`lab ${link.iconClass} text-2xl`}></i>
-          <span className="font-semibold text-xl">
+          <i className={`lab ${link.iconClass} text-2xl dark:text-gray-100`}></i>
+          <span className="font-semibold text-xl dark:text-gray-100">
             { link.title }
           </span>
         </a>

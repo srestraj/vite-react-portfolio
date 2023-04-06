@@ -26,11 +26,13 @@ const Button = ({ classNames, runFunc = () => {} }: Props) => {
           rounded-full
           border-2
           border-neutral-800
+          dark:border-white
           after:absolute
           after:left-0
           after:top-0
           after:content-['']
           after:bg-neutral-900
+          dark:after:bg-white
           after:w-0
           after:h-full
           hover:after:w-full
@@ -40,7 +42,7 @@ const Button = ({ classNames, runFunc = () => {} }: Props) => {
         `}
         onClick={runFunc}
       >
-        <i className="absolute las la-angle-down text-4xl z-10 group-hover:text-white transition-all duration-500"></i>
+        <i className="absolute text-neutral-900 dark:text-white las la-angle-down text-4xl z-10 group-hover:text-white dark:group-hover:text-neutral-900 transition-all duration-500"></i>
       </button>
     </div>
   )
