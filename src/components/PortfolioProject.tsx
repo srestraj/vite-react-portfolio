@@ -10,7 +10,7 @@ const PortfolioProject = ({ projects }:Props) => {
         projects.map((project: any) =>
             <div key={project.id} className="md:col-span-6 relative md:even:mt-16 overflow-hidden">
               <Link to={`/portfolio/${project.slug}`} className="group">
-                <div className="relative">
+                <div className="relative overflow-hidden">
                   <img src={project.image} alt={project.title} className="w-full h-auto transition-all duration-700 opacity-0 animating-image group-hover:scale-110" />
                   <div className="bg-neutral-950 absolute inset-0 transition-all duration-700 animating-bg w-full" />
                 </div>
